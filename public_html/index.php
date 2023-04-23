@@ -4,31 +4,11 @@
 
     </head>
     <body>
-        <!-- All Team Scores -->
-        <table>
-            <tr>
-                <th>Team Name</th>
-                <th>Flags Captured</th>
-            </tr>
-            <?php 
-                $file = fopen("Scores", "r") or die ("Unable to open file!");
+        <!-- Most Recent -->
 
-                $data = array();
-                $i = 0;
-                while(!feof($file)) {
-                    $line = fgets($file);
-                    $data[$i] = explode('-%-', $line);
-                    $i++;
-                }
-                fclose($file);
-            
-                foreach($data as $dataline){
-                    echo '<tr>';
-                    echo '<td>', "$dataline[0]",'</td>';
-                    echo '<td>', "$dataline[1]",'</td>';
-                    echo '</tr>';
-                }
-            ?>
-        </table>
+        <!-- All Team Scores -->
+       <?php include './ScoreBoard/scoreBoard.php'; ?>
+       <!-- Links --> 
+       <a href="./TeamManagment/"><button>Teams</button></a> 
     </body>
 </html>
