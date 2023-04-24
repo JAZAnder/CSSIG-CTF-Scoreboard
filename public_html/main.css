@@ -1,0 +1,45 @@
+body{
+    margin: auto;
+    width: 95%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+  }
+  h1{
+    color: green;
+    font-size: 60px;
+  }
+.r0{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.r1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.r2{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+table,th,tr{
+    width: max-content;
+    border: 1px solid;
+    margin: 0;
+    width: 100%;
+}
+th{
+    font-size: 30px;
+    font-weight: bold;
+}
+td{
+    font-size: 25px;
+}
+button{
+    width: 20%;
+    height: 40px;
+    font-weight: 800;
+    font-size: large;
+    
+}
