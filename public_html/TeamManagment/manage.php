@@ -36,7 +36,7 @@
         <h1>Welcome Team, <?php echo $name;?></h1>
         <h2>You Have <?php echo $score;?> points!</h2>
         
-        <?php echo '<a href="'."$addPointLink".' "><button>New Flag Catpured!</button></a>'?>
+        <?php echo '<a href="'."$addPointLink".' "><button>New Flag Captured!</button></a>'?>
         <a href=".."><button>See All Scores</button></a>
     </body>
 </html>
